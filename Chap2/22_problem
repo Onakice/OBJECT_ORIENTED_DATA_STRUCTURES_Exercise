@@ -1,0 +1,59 @@
+สร้าง class Spherical โดยต้อง
+
+มี function [changeR , findVolume , findArea]
+
+มี ตัวแปร radius
+
+pi = 3.1415926535897932384626433832795028841
+
+
+
+class Spherical:
+
+    def __init__(self,r):
+
+        ### Enter Your Code Here ###
+
+    def changeR(self,Radius):
+
+        ### Enter Your Code Here ###
+
+    def findVolume(self):
+
+        ### Enter Your Code Here ###
+
+    def findArea(self):
+
+        ### Enter Your Code Here ###
+
+    def __str__(self):
+
+        ### Enter Your Code Here ###
+
+r1, r2 = input("Enter R : ").split()
+R1 = Spherical(int(r1))
+print(type(R1))
+print(dir(R1))
+print(R1)
+R1.changeR(int(r2))
+print(R1)
+
+Number of testcase : 4
+
+Enter R : 3 4
+<class '__main__.Spherical'>
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'changeR', 'findArea', 'findVolume', 'pi', 'radius']
+Radius =3 Volumn = 113.09733552923254 Area = 113.09733552923255
+Radius =4 Volumn = 268.082573106329 Area = 201.06192982974676
+
+Enter R : 7 2
+<class '__main__.Spherical'>
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'changeR', 'findArea', 'findVolume', 'pi', 'radius']
+Radius =7 Volumn = 1436.7550402417319 Area = 615.7521601035994
+Radius =2 Volumn = 33.510321638291124 Area = 50.26548245743669
+
+Enter R : 11 4
+<class '__main__.Spherical'>
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'changeR', 'findArea', 'findVolume', 'pi', 'radius']
+Radius =11 Volumn = 5575.279762570686 Area = 1520.53084433746
+Radius =4 Volumn = 268.082573106329 Area = 201.06192982974676
