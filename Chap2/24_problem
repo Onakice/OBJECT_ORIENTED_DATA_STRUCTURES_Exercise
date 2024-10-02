@@ -1,0 +1,15 @@
+จงเขียนฟังก์ชันเพื่อหาผลรวมของ 3 พจน์ใดๆใน Array ที่มีผลรวมเท่ากับ 5 สำหรับ Array ที่มีข้อมูลข้างในเป็นจำนวนจริง ***Array ต้องมีความยาวตั้งแต่ 3 จำนวนขึ้นไป***
+
+Number of testcase : 4
+
+Enter Your List : -25 -10 -7 -3 2 4 8 10
+[[-7, 2, 10], [-7, 4, 8]]
+
+Enter Your List : -3 2 4 6 8 10
+[[-3, 2, 6]]
+
+Enter Your List : -100 100
+Array Input Length Must More Than 2
+
+Enter Your List : 5 -5 5 -5 5 -5 5 5 -5 -5 -5 -5 5
+[[-5, 5, 5]]
