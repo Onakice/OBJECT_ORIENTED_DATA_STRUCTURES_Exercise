@@ -1,0 +1,20 @@
+รับ input จำนวนเต็มสองจำนวน หากผลคูณของทั้งสองจำนวนมีค่าเกิน 1000 ให้ show ผลรวมของจำนวนทั้งสอง แต่หากผลคูณมีค่าน้อยกว่าหรือเท่ากับ 1,000 ให้ show ผลคูณของจำนวนทั้งสอง
+
+Testcase student: #1/5 1
+*** multiplication or sum ***
+Enter num1 num2 : 20 30
+The result is 600
+
+Testcase student: #2/5 2
+*** multiplication or sum ***
+Enter num1 num2 : 40 60
+The result is 100
+
+Testcase student: #3/5 3
+This testcase is hidden.
+
+Testcase student: #4/5 4
+This testcase is hidden.
+
+Testcase student: #5/5 5
+This testcase is hidden.
